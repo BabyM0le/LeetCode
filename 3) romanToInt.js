@@ -10,8 +10,9 @@ const values = {
 }
 let numArray = []
 let output = 0
-
 let romanArray = input.toUpperCase().split('')
+
+// Converts roman numerials to ints
 for(let i = 0; i < romanArray.length; i++) {
     numArray.push(values[romanArray[i]])
 }
@@ -25,8 +26,6 @@ for(let i = 0; i < numArray.length; i++) {
         output += numArray[i]
     }
 }
-
-
 
 console.log(output)
 console.log(numArray)
