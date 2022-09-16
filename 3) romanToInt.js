@@ -27,6 +27,6 @@ for(let i = 0; i < numArray.length; i++) {
     }
 }
 
-console.log(output)
-console.log(numArray)
-console.log(romanArray)
+console.log("Output: " + output)
+console.log("Roman Numerals: " + romanArray)
+console.log("Numbers: " + numArray)
