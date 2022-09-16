@@ -1,4 +1,4 @@
-const input = 'IXIVII'
+const input = 'CMICVII'
 const values = {
     I: 1,
     V: 5,
