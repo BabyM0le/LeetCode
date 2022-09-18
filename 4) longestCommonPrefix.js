@@ -1,4 +1,4 @@
-let input = ['flower', 'flow', 'flight']
+const input = ['flower', 'flow', 'flight']
 let prefixArr = []
 let output = ''
 
